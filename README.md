@@ -182,3 +182,9 @@ You have a test string S. Your task is to match the pattern XXxXXxXX
 Here, x denotes whitespace characters, and X denotes non-white space characters.
 
 regex pattern - \S{2}\s\S{2}\s\S{2}
+
+
+You have a test string S . Your task is to match the pattern xxxXxxxxxxxxxxXxxx
+Here x denotes any word character and X denotes any non-word character.
+
+regex pattern - \w{3}\W\w{10}\W\w{3}
