@@ -168,6 +168,7 @@ regex pattern - hackerannk
 
 You have a test string S.
 Your task is to write a regular expression that matches only and exactly strings of form:abc.def.ghi.jkx , where each variable  a,b,c,d,e,f,g,h,i,j,k,x can be any single character except the newline.
+
 regex pattern - ^.{3}\..{3}\..{3}\..{3}$
 
 
@@ -177,3 +178,7 @@ Here x denotes a digit character, and X denotes a non-digit character.
 regex pattern - \d{2}\D\d{2}\D\d{4}
 
 
+You have a test string S. Your task is to match the pattern XXxXXxXX
+Here, x denotes whitespace characters, and X denotes non-white space characters.
+
+regex pattern - \S{2}\s\S{2}\s\S{2}
