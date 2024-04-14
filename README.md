@@ -171,4 +171,9 @@ Your task is to write a regular expression that matches only and exactly strings
 regex pattern - ^.{3}\..{3}\..{3}\..{3}$
 
 
+You have a test string S. Your task is to match the pattern xxXxxXxxxx
+Here x denotes a digit character, and X denotes a non-digit character.
+
+regex pattern - \d{2}\D\d{2}\D\d{4}
+
 
