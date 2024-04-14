@@ -134,6 +134,25 @@ Examples
 /I (?:love|like) (.+)\./ for the same text only captures “pizza.”
 Lookaround Assertions
 Positive lookahead assertions
+“?=” - group is a positive lookahead assertion
+Examples
+/sea/ matches sea in seashore and seaside
+/(?=seashore)sea/ matches sea in seashore only
+Negative lookahead assertion
+“?!” = group is a negative lookahead assertion
+Examples
+/?!(seashore)sea/ matches sea in seaside but not seashore
+Lookbehind assertions
+“?<=” - group is a positive lookbehind assertion
+“?<!” - group is a negative lookbehind assertion
+Examples
+/(?<=base)ball/ matches “ball” in “baseball” but not in “football”
+/(?<!base)ball/ matches ball in football but not in baseball
+Multiple lookaround assertions
+
+ 
+ 
+
 
 
 
