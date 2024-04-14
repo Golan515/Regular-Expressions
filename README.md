@@ -1,5 +1,27 @@
 # Regular-Expressions
 Commonly used regexes
+
+Reference
+Characters
+Literal Characters
+Example - car string. regex - car
+global - match multiple times
+Character sets
+Repetition
+Grouping
+Alternation
+Anchors
+Capturing Grouping and Backreferences
+Lookaround Assertions
+
+
+
+
+
+
+
+
+
 Match hackerrank
 regex pattern - hackerannk
 
