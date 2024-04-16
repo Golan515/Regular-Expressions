@@ -266,3 +266,15 @@ Then S should end with up to 3 . symbol(s). You can end with 0 to 3 . symbol(s),
 
 
 regex pattern - ^\d{1,2}[a-zA-z]{3,}\.{0,3}$
+
+
+
+You have a test string S.
+Your task is to write a regex that will match  using the following conditions:
+
+S should begin with 2 or more digits.
+After that, S should have 0 or more lowercase letters.
+S should end with 2 or more uppercase letters
+
+regex pattern - ^\d{2,}[a-z]{0,}[A-Z]{0,}$
+
