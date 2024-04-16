@@ -287,3 +287,12 @@ After that, S should have 1 or more uppercase letters.
 S should end with 1 or more lowercase letters.
 
 regex pattern - ^\d{1,}[A-Z]{1,}[a-z]{1,}$
+
+
+
+Write a RegEx to match a test string,S , under the following conditions:
+
+S should consist of only lowercase and uppercase letters (no numbers or symbols).
+S should end in s.
+
+regex pattern - ^[a-zA-z]{0,}s$
