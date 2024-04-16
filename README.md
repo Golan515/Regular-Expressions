@@ -244,3 +244,17 @@ The fifth character must be an uppercase English alphabetic character.
 regex pattern - ^[a-z][1-9][^a-z][^A-Z][A-Z]
 
 
+
+
+
+You have a test string S.
+Your task is to write a regex that will match S using the following conditions:
+
+S must be of length equal to 45.
+The first 40 characters should consist of letters(both lowercase and uppercase), or of even digits.
+The last 5 characters should consist of odd digits or whitespace characters.
+
+regex pattern - ^[a-zA-z024568]{40}[13579\s]{5}$
+
+
+
