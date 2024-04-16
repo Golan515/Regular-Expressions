@@ -317,3 +317,13 @@ Your task is to write a regex which will match  with the following condition:
 S should have 3 or more consecutive repetitions of ok.
 
 regex pattern - (ok){3,}
+
+
+
+
+Given a test string, s , write a RegEx that matches s under the following conditions:
+
+s must start with Mr., Mrs., Ms., Dr. or Er..
+The rest of the string must contain only one or more English alphabetic letters (upper and lowercase).
+
+regex pattern - ^(Mr\.|Mrs\.|Dr\.|Er\.)[a-zA-Z]{1,}$
