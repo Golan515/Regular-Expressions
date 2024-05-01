@@ -355,3 +355,25 @@ S must be of length: 20
 20th character: should be same as 10th character.
 
 regex pattern - ([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10
+
+
+
+
+
+You have a test string S.
+Your task is to write a regex which will match S, with following condition(s):
+
+S consists of 8 digits.
+S may have "-" separator such that string S gets divided in 4 parts, with each part having exactly two digits. (Eg. 12-34-56-78)
+Valid 
+
+12345678
+12-34-56-87
+Invalid 
+
+1-234-56-78
+12-45-7810
+
+
+
+
