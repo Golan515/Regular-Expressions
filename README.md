@@ -1,37 +1,37 @@
 # Regular-Expressions
 Commonly used regexes
 
-Reference
-Characters
-Literal Characters
-Example - car string. regex - car
-global - match multiple times
-Metacharacters
-Wildcard
-“.” - any character except newline
-Example - /h.t/ - will match hat
-Escaping Metacharacters
-“\” - escape any metcharacter
-Example - /\./ - escapes wildcard metacharacter “.” and its only matching a period
-Other special characters
-Spaces - actual space character
-Tab - \t
-Line returns
-\n - new line
-\r - return carriage
-\r\n
-Character sets
-Define a character set
-“[“- begin character set
-“]” - end character set
+## Reference
+### Characters
+#### Literal Characters
+##### Example - car string. regex - car
+##### global - match multiple times
+#### Metacharacters
+#### Wildcard
+##### “.” - any character except newline
+###### Example - /h.t/ - will match hat
+#### Escaping Metacharacters
+##### “\” - escape any metcharacter
+###### Example - /\./ - escapes wildcard metacharacter “.” and its only matching a period
+##### Other special characters
+##### Spaces - actual space character
+###### Tab - \t
+###### Line returns
+###### \n - new line
+###### \r - return carriage
+###### \r\n
+### Character sets
+##### Define a character set
+###### “[“- begin character set
+###### “]” - end character set
 Example - /[aeiou]/ - match any vowel
 Example -/gr[ea]y/ - matches grey and gray
-Character Ranges
-/[0123456789]/ or /[0-9]/- any number
-/[abcdefghijklmnopqrstuvwxyz]/ or /[a-z]// - any alphabet lowercase
-/[ABCDEFGHIJKLMNOPQRSTUVWXYZ]/ or /[A-Z]/ - any alphabet uppercase
-/[a-z]/ - a to z . The “-” here is applicable only inside [] outsite its just a hyphen
-/[A-Za-z]/ - case insensitive alphabets
+##### Character Ranges
+##### /[0123456789]/ or /[0-9]/- any number
+##### /[abcdefghijklmnopqrstuvwxyz]/ or /[a-z]// - any alphabet lowercase
+##### /[ABCDEFGHIJKLMNOPQRSTUVWXYZ]/ or /[A-Z]/ - any alphabet uppercase
+##### /[a-z]/ - a to z . The “-” here is applicable only inside [] outside its just a hyphen
+##### /[A-Za-z]/ - case insensitive alphabets
 Negative character sets
 ^ - Negate character set
 /[^aeiou]/ - matches only consonants
